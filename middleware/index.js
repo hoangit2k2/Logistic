@@ -42,7 +42,7 @@ export const createImageDir = (req, res, next) => {
 
 /**
  * header contain
- * Authorised : Bearer token
+ * Authorized : Bearer token
  */
 export const verifyToken = async (req, res, next) => {
   try {
